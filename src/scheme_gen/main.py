@@ -1,7 +1,7 @@
 import click
 
-import my_app.__init__ as init
-from my_app.hello_world import say_hi
+import scheme_gen.__init__ as init
+from scheme_gen.hello_world import say_hi
 
 
 @click.group()

@@ -1,6 +1,6 @@
 # Python Project Template
 
-> Template for Python Projects [@okp4](okp4.com).
+> ExifTags schema generator for OKP4 Ontology.
 
 [![version](https://img.shields.io/github/v/release/okp4/template-python?style=for-the-badge&logo=github)](https://github.com/okp4/template-python/releases)
 [![lint](https://img.shields.io/github/actions/workflow/status/okp4/template-python/lint.yml?label=lint&style=for-the-badge&logo=github)](https://github.com/okp4/template-python/actions/workflows/lint.yml)
@@ -11,25 +11,6 @@
 [![contributor covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg?style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause)
 
-## Purpose & Philosophy
-
-This repository holds the template for building python projects with a consistent set of standards across all okp4 python projects. We are convinced that the quality of the code depends on clear and consistent coding conventions, with an automated enforcement (CI).
-
-This way, the template promotes:
-
-- the use of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), [semantic versionning](https://semver.org/) and [semantic releasing](https://github.com/cycjimmy/semantic-release-action) which automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the artifacts (project tarball, docker images, etc.)
-- a uniform way for managing the project lifecycle (dependencies management, building, testing)
-- KISS principles: simple for developers
-- a consistent coding style
-
-## How to use
-
-> 🚨 do not fork this repository as it is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-
-1. Click on [Use this template](https://github.com/okp4/template-python/generate)
-2. Give a name to your project
-3. Wait until the first run of CI finishes
-4. Clone your new project and happy coding!
 
 ## System requirements
 
@@ -159,10 +140,3 @@ Once built, you can run the container locally with the following command line:
 ```sh
 docker run -ti --rm my-app
 ```
-
-## You want to get involved? 😍
-
-Please check out OKP4 health files :
-
-- [Contributing](https://github.com/okp4/.github/blob/main/CONTRIBUTING.md)
-- [Code of conduct](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)

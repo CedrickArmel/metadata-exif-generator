@@ -1,4 +1,4 @@
-from my_app import __version__
+from scheme_gen import __version__
 
 
 def test_version_displays_library_version():

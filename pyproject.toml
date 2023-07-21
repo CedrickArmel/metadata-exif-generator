@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "my-app"
+name = "scheme-gen"
 version = "0.1.0"
-description = "My application"
-authors = ["Your Name <you@example.com>"]
+description = "ExifTags Scheme Generator"
+authors = ["CedrickArmel <you@example.com>"]
 license = "BSD 3-Clause License"
 
 [tool.poetry.dependencies]
@@ -18,7 +18,7 @@ pytest-cov = "^4.1.0"
 
 [tool.semantic_release]
 version_variable = [
-    "src/my_app/__init__.py:__version__",
+    "src/scheme_gen/__init__.py:__version__",
     "pyproject.toml:version"
 ]
 branch = "main"
@@ -27,7 +27,7 @@ upload_to_release = true
 build_command = "pip install poetry && poetry build"
 
 [tool.poetry.scripts]
-my-app = "my_app.main:cli"
+scheme-gen = "scheme_gen.main:cli"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

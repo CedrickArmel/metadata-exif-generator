@@ -51,4 +51,4 @@ COPY --from=builder /build/dist/*.whl /tmp/whl/
 RUN  python3 -m pip install --no-cache-dir /tmp/whl/*.whl \
   && rm -rf /tmp/whl
 
-ENTRYPOINT ["my-app"]
+ENTRYPOINT ["scheme-gen"]
