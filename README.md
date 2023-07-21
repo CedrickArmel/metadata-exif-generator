@@ -1,4 +1,4 @@
-# Python Project Template
+# EXIFTAGS SCHEMA GENERATOR
 
 > ExifTags schema generator for OKP4 Ontology.
 
